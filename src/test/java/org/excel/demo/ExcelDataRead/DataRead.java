@@ -69,7 +69,7 @@ public class DataRead {
 
 		sheet = workbook.getSheet(sheetName);
 		int rowCount = sheet.getLastRowNum() + 1;
-
+        System.out.println(rowCount);
 		return rowCount;
 	}
 
